@@ -1,6 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The site is essentially a small Giphy browser. Here's the high-level description:
+
+# 1. The initial screen is an "infinitely scrolling" list of the trending GIFs on Giphy.
+# 2. There's a search bar on top that will allow a user to search for GIFs. These results will replace the trending GIFs.
+# 3. When you click a GIF, it will take you to a fullscreen view of that GIF.
+
+The goal is to get a feel for your coding style, and the choices you make when working on real features. We'd like you to use React and Redux to accomplish all of this. You might consider one of these to get started more quickly:
+#  https://github.com/facebook/create-react-app
+#  https://reactjs.org/docs/add-react-to-a-website.html
+
 ## Available Scripts
+
+You will need a .env file in the root directory.  The following keys are required.
+# REACT_APP_API_KEY=1234567
+# REACT_APP_BASE_URL=https://api.giphy.com/v1/gifs
 
 In the project directory, you can run:
 

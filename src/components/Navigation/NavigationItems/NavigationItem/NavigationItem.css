@@ -1,0 +1,16 @@
+.navigationItem {
+    margin: 10px 0;
+    height: 100%;
+}
+
+.navigationItem a {
+    color: #8F5C2C;
+    text-decoration: none;
+    width: 100%;
+}
+
+.navigationItem a:hover,
+.navigationItem a:active,
+.navigationItem a.active {
+    color: #40A4C8;
+}

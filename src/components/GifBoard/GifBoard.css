@@ -1,0 +1,41 @@
+.container {
+	height: 100%;
+  width: 100%;
+}
+
+.masonry-container{
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+	min-height: 800px
+}
+
+.masonry{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: stretch;
+	width: 100%;
+	margin: auto;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: stretch;
+	flex-grow: 1;
+}
+
+.infinite-scroll__arrow {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid black;
+}
+
+.hidden {
+	display:none;
+}
